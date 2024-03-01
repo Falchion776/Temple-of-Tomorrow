@@ -24,9 +24,15 @@ The General Store is north of the Inn. The description of the General Store is "
 
 The Store Counter is inside of General Store. "DESCRIPTION"
 
+In the Store Counter is a man called Ilbert Drogo. Every turn when the player can see Ilbert Drogo: say "The shopkeep smirks at you and says: 'What are you buyin'?'"
+
 The Farmer's Market is south of the Inn. "A score of stalls line the road. Despite being the busiest part of town, only a dozen people mill about the market. The energy is low, but in a relaxed war of people just going about their everyday. "
 
+In the Farmer's Market is a man called Crazy Joe. Every turn when the player can see Crazy Joe: say "Glancing around the market you spot a lone stall selling peaches. As you lock eyes with the vendor you meet a soul that has gone mad."
+
 The Village Gates is south of Farmer's Market. "The Village Gates are simple wooden structures more for keeping wild animals at bay than bandits or the Horde. Oaken walls extend from either side encompassing the village. The only other object of intrest here is an old stonearchway "
+
+In the Village Gates is a man called Beyton Betan. Every turn when the player can see Beyton Betan: say "The Captain of the Guard is currently standing watch. You can feel his glaze following you."
 
 [[if HASITEM] reading: _.[end if]. [if DOESNOTHAVEITEM] a strange, unreadable language is incribed upon it.[end if] To the South if the Roadway. To the North is Farmer's Market.]
 
@@ -39,6 +45,8 @@ The Sunset Swamp is west of South Roadway. "As you leave the town and enter into
 The Small Pond is west of Sunset Swamp. "Navigating your way through the mysterious swamp you come upon a small hut. It's an old wooden strcutre, built over a small pond and hoisted above the water by stilts. It’s close enough to the edge of the swamp that with a few simple hops across the swamp you can make it to the hut. The Witch's Hut is Inside. To the East is Sunset Swamp."
 
 The Witch's Hut is inside of the Small Pond. "As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients."
+
+In the Witch's Hut is a woman called Maeve Greenwood. Every turn when the player can see Maeve Greenwood: say "From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin."
 
 The North Roadway is north of General Store. "As you step out beyond the walls of village you come to a realization. With each step you take you get closer and closer to Rema, the old imperial capital. No dubt the ruins are crawling with member of the Horde, but still, you can't help but shake off the feeling nostalgia. To the East is the Forest of Vandor. To the South is the General Store."
 
