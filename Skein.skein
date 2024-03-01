@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-51"/>
+  <activeNode nodeId="node-63"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Temple of Tomorrow</command>
     <result xml:space="preserve">Temple of Tomorrow&#x000A;An Interactive Fiction by Falchion776&#x000A;Release 1 / Serial number 240229 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Inn&#x000A;Having arrived late in town last night, today is your first day to explore the village of Eastridge and find out more about the Temple of Tomorrow. The Professor did not give you a specific location so from this point on its up to you to locate the temple and recover the Binding Shield. You find yourself on the steps of the Eastridge's inn. It's an unremarkable building starting to fall into disarry. From here you can see almost the entire village as most of Eastridge is contained on a single road. The Bar is inside. To the North is the General Store. To the South is the Farmer's Market.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-27"/>
       <child nodeId="node-28"/>
-      <child nodeId="node-31"/>
+      <child nodeId="node-41"/>
+      <child nodeId="node-58"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -252,7 +253,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-30"/>
-      <child nodeId="node-42"/>
+      <child nodeId="node-31"/>
     </children>
   </item>
   <item nodeId="node-30">
@@ -261,96 +262,9 @@
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
   </item>
-  <item nodeId="node-42">
+  <item nodeId="node-31">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">General Store&#x000A;The largest building in town. From the windows you can see cluttered rows of various tools, farming supplies, and simple goods. You're not sure if there will be anything useful to you unless you check inside.  The Store Counter is inside. To the North is the North Roadway. To the South is the Inn.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-43"/>
-    </children>
-  </item>
-  <item nodeId="node-43">
-    <command xml:space="preserve">in</command>
-    <result xml:space="preserve">Store Counter&#x000A;DESCRIPTION&#x000A;&#x000A;You can see Ilbert Drogo here.&#x000A;&#x000A;The shopkeep smirks at you and says: "What are you buyin"?"&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-44"/>
-    </children>
-  </item>
-  <item nodeId="node-44">
-    <command xml:space="preserve">out</command>
-    <result xml:space="preserve">General Store&#x000A;The largest building in town. From the windows you can see cluttered rows of various tools, farming supplies, and simple goods.  The Store Counter is inside. To the North is the North Roadway. To the South is the Inn.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-45"/>
-    </children>
-  </item>
-  <item nodeId="node-45">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Inn&#x000A;You find yourself on the steps of the Eastridge's inn. It's an unremarkable building starting to fall into disarry. From here you can see almost the entire village as most of Eastridge is contained on a single road. The Bar is inside. To the North is the General Store. To the South is the Farmer's Market.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-46"/>
-    </children>
-  </item>
-  <item nodeId="node-46">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Farmer's Market&#x000A;A score of stalls line the road. Despite being the busiest part of town, only a dozen people mill about the market. The energy is low, but in a relaxed war of people just going about their everyday. &#x000A;&#x000A;You can see Crazy Joe here.&#x000A;&#x000A;Glancing around the market you spot a lone stall selling peaches. As you lock eyes with the vendor you meet a soul that has gone mad.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-47"/>
-    </children>
-  </item>
-  <item nodeId="node-47">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Village Gates&#x000A;The Village Gates are simple wooden structures more for keeping wild animals at bay than bandits or the Horde. Oaken walls extend from either side encompassing the village. The only other object of intrest here is an old stonearchway &#x000A;&#x000A;You can see Beyton Betan here.&#x000A;&#x000A;The Captain of the Guard is currently standing watch. You can feel his glaze following you.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-48"/>
-    </children>
-  </item>
-  <item nodeId="node-48">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">South Roadway&#x000A;From the outisde, the village is nothing impressive, seemingly just another town in what should be a long line of farmering towns. However, thanks to the Horde, this town is the farthest north settlement still in existence. The closest town, Cereshold, is nearly a week long journey back south. And though you wish to return to cilvilzation you still have work to do here. To the North is the Village Gates. To the West is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-49"/>
-    </children>
-  </item>
-  <item nodeId="node-49">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Sunset Swamp&#x000A;As you leave the town and enter into the swamp the smell, unnoticeable from inside the town walls, hits your nostrils and makes you pause for a moment before you recover and continue on. The bugs start to swarm you as plunge deeper into the dense folege and slimy muck.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-50"/>
-    </children>
-  </item>
-  <item nodeId="node-50">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Small Pond&#x000A;Navigating your way through the mysterious swamp you come upon a small hut. It's an old wooden strcutre, built over a small pond and hoisted above the water by stilts. It's close enough to the edge of the swamp that with a few simple hops across the swamp you can make it to the hut. The Witch's Hut is Inside. To the East is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-51"/>
-    </children>
-  </item>
-  <item nodeId="node-51">
-    <command xml:space="preserve">in</command>
-    <result xml:space="preserve">Witch's Hut&#x000A;As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients.&#x000A;&#x000A;You can see Maeve Greenwood here.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-31">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Farmer's Market&#x000A;A score of stalls line the road. Despite being the busiest part of town, only a dozen people mill about the market. The energy is low, but in a relaxed war of people just going about their everyday. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -358,8 +272,8 @@
     </children>
   </item>
   <item nodeId="node-32">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Village Gates&#x000A;The Village Gates are simple wooden structures more for keeping wild animals at bay than bandits or the Horde. Oaken walls extend from either side encompassing the village. The only other object of intrest here is an old stonearchway &#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Store Counter&#x000A;DESCRIPTION&#x000A;&#x000A;You can see Ilbert Drogo here.&#x000A;&#x000A;The shopkeep smirks at you and says: "What are you buyin"?"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -367,8 +281,8 @@
     </children>
   </item>
   <item nodeId="node-33">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">South Roadway&#x000A;From the outisde, the village is nothing impressive, seemingly just another town in what should be a long line of farmering towns. However, thanks to the Horde, this town is the farthest north settlement still in existence. The closest town, Cereshold, is nearly a week long journey back south. And though you wish to return to cilvilzation you still have work to do here. To the North is the Village Gates. To the West is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">General Store&#x000A;The largest building in town. From the windows you can see cluttered rows of various tools, farming supplies, and simple goods.  The Store Counter is inside. To the North is the North Roadway. To the South is the Inn.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -377,7 +291,7 @@
   </item>
   <item nodeId="node-34">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Inn&#x000A;You find yourself on the steps of the Eastridge's inn. It's an unremarkable building starting to fall into disarry. From here you can see almost the entire village as most of Eastridge is contained on a single road. The Bar is inside. To the North is the General Store. To the South is the Farmer's Market.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -385,8 +299,8 @@
     </children>
   </item>
   <item nodeId="node-35">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Sunset Swamp&#x000A;As you leave the town and enter into the swamp the smell, unnoticeable from inside the town walls, hits your nostrils and makes you pause for a moment before you recover and continue on. The bugs start to swarm you as plunge deeper into the dense folege and slimy muck.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Farmer's Market&#x000A;A score of stalls line the road. Despite being the busiest part of town, only a dozen people mill about the market. The energy is low, but in a relaxed war of people just going about their everyday. &#x000A;&#x000A;You can see Crazy Joe here.&#x000A;&#x000A;Glancing around the market you spot a lone stall selling peaches. As you lock eyes with the vendor you meet a soul that has gone mad.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -394,8 +308,8 @@
     </children>
   </item>
   <item nodeId="node-36">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Small Pond&#x000A;Navigating your way through the mysterious swamp you come upon a small hut. It's an old wooden strcutre, built over a small pond and hoisted above the water by stilts. It's close enough to the edge of the swamp that with a few simple hops across the swamp you can make it to the hut. The Witch's Hut is Inside. To the East is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Village Gates&#x000A;The Village Gates are simple wooden structures more for keeping wild animals at bay than bandits or the Horde. Oaken walls extend from either side encompassing the village. The only other object of intrest here is an old stonearchway &#x000A;&#x000A;You can see Beyton Betan here.&#x000A;&#x000A;The Captain of the Guard is currently standing watch. You can feel his glaze following you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -403,8 +317,8 @@
     </children>
   </item>
   <item nodeId="node-37">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">South Roadway&#x000A;From the outisde, the village is nothing impressive, seemingly just another town in what should be a long line of farmering towns. However, thanks to the Horde, this town is the farthest north settlement still in existence. The closest town, Cereshold, is nearly a week long journey back south. And though you wish to return to cilvilzation you still have work to do here. To the North is the Village Gates. To the West is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -412,8 +326,8 @@
     </children>
   </item>
   <item nodeId="node-38">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Sunset Swamp&#x000A;As you leave the town and enter into the swamp the smell, unnoticeable from inside the town walls, hits your nostrils and makes you pause for a moment before you recover and continue on. The bugs start to swarm you as plunge deeper into the dense folege and slimy muck.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -421,8 +335,8 @@
     </children>
   </item>
   <item nodeId="node-39">
-    <command xml:space="preserve">in</command>
-    <result xml:space="preserve">Witch's Hut&#x000A;DESCRIPTION&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Pond&#x000A;Navigating your way through the mysterious swamp you come upon a small hut. It's an old wooden strcutre, built over a small pond and hoisted above the water by stilts. It's close enough to the edge of the swamp that with a few simple hops across the swamp you can make it to the hut. The Witch's Hut is Inside. To the East is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -430,17 +344,203 @@
     </children>
   </item>
   <item nodeId="node-40">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Witch's Hut&#x000A;As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients.&#x000A;&#x000A;You can see Maeve Greenwood here.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Farmer's Market&#x000A;A score of stalls line the road. Despite being the busiest part of town, only a dozen people mill about the market. The energy is low, but in a relaxed war of people just going about their everyday. &#x000A;&#x000A;You can see Crazy Joe here.&#x000A;&#x000A;Glancing around the market you spot a lone stall selling peaches. As you lock eyes with the vendor you meet a soul that has gone mad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Village Gates&#x000A;The Village Gates are simple wooden structures more for keeping wild animals at bay than bandits or the Horde. Oaken walls extend from either side encompassing the village. The only other object of intrest here is an old stonearchway &#x000A;&#x000A;You can see Beyton Betan here.&#x000A;&#x000A;The Captain of the Guard is currently standing watch. You can feel his glaze following you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">South Roadway&#x000A;From the outisde, the village is nothing impressive, seemingly just another town in what should be a long line of farmering towns. However, thanks to the Horde, this town is the farthest north settlement still in existence. The closest town, Cereshold, is nearly a week long journey back south. And though you wish to return to cilvilzation you still have work to do here. To the North is the Village Gates. To the West is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Sunset Swamp&#x000A;As you leave the town and enter into the swamp the smell, unnoticeable from inside the town walls, hits your nostrils and makes you pause for a moment before you recover and continue on. The bugs start to swarm you as plunge deeper into the dense folege and slimy muck.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Pond&#x000A;Navigating your way through the mysterious swamp you come upon a small hut. It's an old wooden strcutre, built over a small pond and hoisted above the water by stilts. It's close enough to the edge of the swamp that with a few simple hops across the swamp you can make it to the hut. The Witch's Hut is Inside. To the East is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Witch's Hut&#x000A;DESCRIPTION&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">Small Pond&#x000A;Navigating your way through the mysterious swamp you come upon a small hut. It's an old wooden strcutre, built over a small pond and hoisted above the water by stilts. It's close enough to the edge of the swamp that with a few simple hops across the swamp you can make it to the hut. The Witch's Hut is Inside. To the East is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-41"/>
+      <child nodeId="node-51"/>
     </children>
   </item>
-  <item nodeId="node-41">
+  <item nodeId="node-51">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Witch's Hut&#x000A;As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients.&#x000A;&#x000A;You can see the Witch here.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Witch's Hut&#x000A;As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients.&#x000A;&#x000A;You can see the Witch here.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">look witch</command>
+    <result xml:space="preserve">You peer at the Witch a bit more closely and realize that it's Maeve Greenwood.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Witch's Hut&#x000A;As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients.&#x000A;&#x000A;You can see Maeve Greenwood here.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Sunset Swamp&#x000A;As you leave the town and enter into the swamp the smell, unnoticeable from inside the town walls, hits your nostrils and makes you pause for a moment before you recover and continue on. The bugs start to swarm you as plunge deeper into the dense folege and slimy muck.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Small Pond&#x000A;Navigating your way through the mysterious swamp you come upon a small hut. It's an old wooden strcutre, built over a small pond and hoisted above the water by stilts. It's close enough to the edge of the swamp that with a few simple hops across the swamp you can make it to the hut. The Witch's Hut is Inside. To the East is Sunset Swamp.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Witch's Hut&#x000A;As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients.&#x000A;&#x000A;You can see Maeve Greenwood here.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Witch's Hut&#x000A;As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients.&#x000A;&#x000A;You can see Maeve Greenwood here.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Witch's Hut&#x000A;As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients.&#x000A;&#x000A;You can see Maeve Greenwood here.&#x000A;&#x000A;From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Inn&#x000A;You find yourself on the steps of the Eastridge's inn. It's an unremarkable building starting to fall into disarry. From here you can see almost the entire village as most of Eastridge is contained on a single road. The Bar is inside. To the North is the General Store. To the South is the Farmer's Market.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Inn&#x000A;You find yourself on the steps of the Eastridge's inn. It's an unremarkable building starting to fall into disarry. From here you can see almost the entire village as most of Eastridge is contained on a single road. The Bar is inside. To the North is the General Store. To the South is the Farmer's Market.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

@@ -1,8 +1,9 @@
 "Temple of Tomorrow" by Falchion776
 
 [CONTROLS]
-[Directions: North, South, East, West, Inside, Outside - (n,s,e,w,in,out) ]
-[Inventory: Inventory - (i) ]
+[North, South, East, West, Inside, Outside - (n,s,e,w,in,out) ]
+[Inventory - (i) ]
+[Look - {l} ]
 
 [IDEAS]
 [The Player has gold and a few starting items that they'll need to use/sell/trade to get into the Temple.]
@@ -32,7 +33,8 @@ In the Farmer's Market is a man called Crazy Joe. Every turn when the player can
 
 The Village Gates is south of Farmer's Market. "The Village Gates are simple wooden structures more for keeping wild animals at bay than bandits or the Horde. Oaken walls extend from either side encompassing the village. The only other object of intrest here is an old stonearchway "
 
-In the Village Gates is a man called Beyton Betan. Every turn when the player can see Beyton Betan: say "The Captain of the Guard is currently standing watch. You can feel his glaze following you."
+In the Village Gates is a man called Beyton Betan. 
+Every turn when the player can see Beyton Betan: say "The Captain of the Guard is currently standing watch. You can feel his glaze following you."
 
 [[if HASITEM] reading: _.[end if]. [if DOESNOTHAVEITEM] a strange, unreadable language is incribed upon it.[end if] To the South if the Roadway. To the North is Farmer's Market.]
 
@@ -46,7 +48,14 @@ The Small Pond is west of Sunset Swamp. "Navigating your way through the mysteri
 
 The Witch's Hut is inside of the Small Pond. "As you enter the hut it takes a moment for your eyes to adjust to the darkness. You find a cluttered, homey space. In the center of the hut is a large, black, cauldron currently cold and empty. The walls of the hut are covered with shelves of knick knacks and what seem to be spell ingredients."
 
-In the Witch's Hut is a woman called Maeve Greenwood. Every turn when the player can see Maeve Greenwood: say "From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin."
+In the Witch's Hut is a woman called the Witch. 
+Instead of examining the Witch for the first time:
+	now the printed name of the Witch is "Maeve Greenwood";
+	now the Witch is proper-named;
+	say "You peer at the Witch a bit more closely and realize that it's Maeve Greenwood." 
+Understand "Maeve Greenwood" as the Witch when the Witch is proper-named.
+Every turn when the player can see the Witch: say "From out of the darkness off the corner a old dragonborn woman leans forward in her chair and slash you a toothy grin."
+[I still want to edit this so that the player learns more about Maeve through rumors in the town, but for a moment it works fine in character since the player is supposed to be Sabrina Kalla.]
 
 The North Roadway is north of General Store. "As you step out beyond the walls of village you come to a realization. With each step you take you get closer and closer to Rema, the old imperial capital. No dubt the ruins are crawling with member of the Horde, but still, you can't help but shake off the feeling nostalgia. To the East is the Forest of Vandor. To the South is the General Store."
 
