@@ -3,7 +3,14 @@
 [CONTROLS]
 [North, South, East, West, Inside, Outside - (n,s,e,w,in,out) ]
 [Inventory - (i) ]
-[Look - {l} ]
+[Look - (l) ]
+[Buy - ]
+
+[MECHANICS]
+[instead of going to ROOM: DO SOMETHING]
+[end the story.]
+[The strongbox is a locked container. The little steel key unlocks the strongbox. ]
+[Price is a kind of value. $10.99 specifies a price. A thing has a price. The price of a thing is usually $0.00. After examining something for sale, say "It can be yours for [the price of the noun]."  - SEE 9.4: FORZEN ASSETS]
 
 [IDEAS]
 [The Player has gold and a few starting items that they'll need to use/sell/trade to get into the Temple.]
@@ -12,6 +19,10 @@
 [The Temple Doors are locked. The players needs to obtain the Temple Key from the Witch.]
 [Glasses of Read Languages that allow you read the Archway which has a clue about how to open the temple.]
 [Different kinds of fruit/vegatbles to purchase at the farmer's market. Including magic watermelon.]
+
+The player wears cloak. The description of the cloak is "Your old travelling cloak. It has served you well for many years.".
+The player carries coin purse. The description of the coin purse is "A new coin sack the Professor gave you for your expidition.".
+10 gold is in the coin purse.
 
 The Inn is a room. The description of the Inn is "[if unvisited]Having arrived late in town last night, today is your first day to explore the village of Eastridge and find out more about the Temple of Tomorrow. The Professor did not give you a specific location so from this point on its up to you to locate the temple and recover the Binding Shield. [end if]You find yourself on the steps of the Eastridge's inn. It's an unremarkable building starting to fall into disarry. From here you can see almost the entire village as most of Eastridge is contained on a single road. The Bar is inside. To the North is the General Store. To the South is the Farmer's Market."
 
