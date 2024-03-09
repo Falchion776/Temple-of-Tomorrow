@@ -25,14 +25,7 @@
 
 The player wears cloak. The description of the cloak is "Your old travelling cloak. It has served you well for many years.".
 The player carries coin purse. The description of the coin purse is "A new coin sack the Professor gave you for your expidition.".
-[A gold coin is in the coin purse.]
-
-A gold is a kind of thing.
-The description of a gold is “A shiny gold coin. Commonly used as currency everywhere on Luzalis.”.
-Understand “Coin” or “Coins” or “Money” as gold.
-Understand “give [things] to [someone]” as giving it to.
-The block giving rule is not listed in any rulebook.
-10 gold are in the coin purse.
+A gold coin is in the coin purse. The description of the gold coin is “A shiny gold coin. Commonly used as currency everywhere on Luzalis. You should be able to get some change for it”.
 
 The Inn is a room. The description of the Inn is "[if unvisited]Having arrived late in town last night, today is your first day to explore the village of Eastridge and find out more about the Temple of Tomorrow. The Professor did not give you a specific location so from this point on its up to you to locate the temple and recover the Binding Shield. [end if]You find yourself on the steps of the Eastridge's inn. It's an unremarkable building starting to fall into disarry. From here you can see almost the entire village as most of Eastridge is contained on a single road. The Bar is inside. To the North is the General Store. To the South is the Farmer's Market."
 
@@ -53,15 +46,13 @@ The Farmer's Market is south of the Inn. "A score of stalls line the road. Despi
 In the Farmer's Market is a man called Crazy Joe. 
 Every turn when the player can see Crazy Joe: say "Glancing around the market you spot a lone stall selling peaches. As you lock eyes with the vendor you meet a soul that has gone mad."
 Crazy Joe carries a Peach. The Peach is edible.
-[if the player carries gold, try silently taking gold out.
-	Instead of giving the gold to Crazy Joe:
-		now Crazy Joe carries the gold;
-		now the player carries the Peach;
-		say "Crazy Joe cackled with delight at his shiny new coin." 
-	Instead of buying the Peach:
-		if the player carries gold, try giving the gold to Crazy Joe;
-		otherwise say "You have no money."
-otherwise say "You have no money."]
+Instead of giving the gold to Crazy Joe:
+	now Crazy Joe carries the gold;
+	now the player carries the Peach;
+	say "Crazy Joe cackled with delight at his shiny new coin." 
+Instead of buying the Peach:
+	if the player carries gold, try giving the gold to Crazy Joe;
+	otherwise say "You have no money."
 
 The Village Gates is south of Farmer's Market. "The Village Gates are simple wooden structures more for keeping wild animals at bay than bandits or the Horde. Oaken walls extend from either side encompassing the village. The only other object of intrest here is an old stonearchway "
 
