@@ -45,14 +45,27 @@ The Farmer's Market is south of the Inn. "A score of stalls line the road. Despi
 
 In the Farmer's Market is a man called Crazy Joe. 
 Every turn when the player can see Crazy Joe: say "Glancing around the market you spot a lone stall selling peaches. As you lock eyes with the vendor you meet a soul that has gone mad."
-Crazy Joe carries a Peach. The Peach is edible.
-Instead of giving the gold to Crazy Joe:
+Crazy Joe carries a Peach, a silver coin, and a bronze coin. The Peach is edible.
+Instead of giving the gold coin to Crazy Joe:
 	now Crazy Joe carries the gold;
 	now the player carries the Peach;
-	say "Crazy Joe cackled with delight at his shiny new coin." 
+	now the player carries the silver coin;
+	say "Crazy Joe cackled with delight at his shiny new golden coin." 
+Instead of giving the silver coin to Crazy Joe:
+	now Crazy Joe carries the silver coin;
+	now the player carries the Peach;
+	now the player carries the bronze coin;
+	say "Crazy Joe cackled with delight at his shiny new silvery coin." 
+Instead of giving the bronze coin to Crazy Joe:
+	now Crazy Joe carries the bronze coin;
+	now the player carries the Peach;
+	say "Crazy Joe cackled with delight at his shiny new bronze coin." 
 Instead of buying the Peach:
-	if the player carries gold, try giving the gold to Crazy Joe;
+	if the player carries the bronze coin, try giving the bronze coin to Crazy Joe;
+	if the player carries the silver coin, try giving the silver coin to Crazy Joe;
+	if the player carries the gold coin, try giving the gold coin to Crazy Joe;
 	otherwise say "You have no money."
+[You can still buy the peach after you already have one so I need to add a check for that, but otherwise the change system works.]
 
 The Village Gates is south of Farmer's Market. "The Village Gates are simple wooden structures more for keeping wild animals at bay than bandits or the Horde. Oaken walls extend from either side encompassing the village. The only other object of intrest here is an old stonearchway "
 
