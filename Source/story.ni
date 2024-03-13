@@ -31,7 +31,8 @@ The Inn is a room. The description of the Inn is "[if unvisited]Having arrived l
 
 The Bar is inside of Inn. "The Bar is empty. Despite your early start, the Bar remains absent of locals. Only the barkeep, Renford Gerard, remains. Chairs remain on top of the tables and bar itself looks freshly cleaned. Your Private Room is upstaris. The rest of the town is outside."
 
-In the bar is a man called Renford Gerard. Every turn when the player can see Renford Gerard: say "The barkeep watches you while cleaning a few dirty dishes."
+In the bar is a man called Renford Gerard. 
+Every turn when the player can see Renford Gerard: say "The barkeep watches you while cleaning a few dirty dishes."
 
 The Private Room is up from the Bar. "A plain yet clean room. You've travelled light so there's very little clutter left in the room. The Bar is downstairs."
 
@@ -39,7 +40,25 @@ The General Store is north of the Inn. The description of the General Store is "
 
 The Store Counter is inside of General Store. "DESCRIPTION"
 
-In the Store Counter is a man called Ilbert Drogo. Every turn when the player can see Ilbert Drogo: say "The shopkeep smirks at you and says: 'What are you buyin'?'"
+In the Store Counter is a man called Ilbert Drogo. 
+Every turn when the player can see Ilbert Drogo: say "The shopkeep smirks at you and says: 'What are you buyin'?'"
+Ilbert Drogo carries the Lense of Read Language and the Magic Bow.
+Instead of giving the gold coin to Ilbert Drogo:
+	say "You glance back and forth between the Lense of Read Language and the Magic Bow indescively."
+Instead of buying the Lense of Read Language:
+	now Ilbert Drogo carries the gold coin;
+	now the player carries the Lense of Read Language;
+	now the player carries the silver coin;
+	say "The shopkeep chuckles and says: 'Thank you.'"
+	[Need to prevent player from recieveing the item if they don't have the gold]
+	[Need different dialogue if the player had already bought the item]
+Instead of buying the Magic Bow:
+	now Ilbert Drogo carries the gold coin;
+	now the player carries the Magic Bow;
+	now the player carries the silver coin;
+	say "The shopkeep chuckles and says: 'Thank you.'"
+	[Need to prevent player from recieveing the item if they don't have the gold]
+	[Need different dialogue if the player had already bought the item]
 
 The Farmer's Market is south of the Inn. "A score of stalls line the road. Despite being the busiest part of town, only a dozen people mill about the market. The energy is low, but in a relaxed war of people just going about their everyday. "
 
@@ -47,15 +66,15 @@ In the Farmer's Market is a man called Crazy Joe.
 Every turn when the player can see Crazy Joe: say "Glancing around the market you spot a lone stall selling peaches. As you lock eyes with the vendor you meet a soul that has gone mad."
 Crazy Joe carries a Peach, a silver coin, and a bronze coin. The Peach is edible.
 Instead of giving the gold coin to Crazy Joe:
-	now Crazy Joe carries the gold;
+	now Crazy Joe carries the gold coin;
 	now the player carries the Peach;
 	now the player carries the silver coin;
-	say "Crazy Joe cackled with delight at his shiny new golden coin." 
+	say "After handing you some change, Crazy Joe cackled with delight at his shiny new golden coin." 
 Instead of giving the silver coin to Crazy Joe:
 	now Crazy Joe carries the silver coin;
 	now the player carries the Peach;
 	now the player carries the bronze coin;
-	say "Crazy Joe cackled with delight at his shiny new silvery coin." 
+	say "After handing you some change, Crazy Joe cackled with delight at his shiny new silvery coin." 
 Instead of giving the bronze coin to Crazy Joe:
 	now Crazy Joe carries the bronze coin;
 	now the player carries the Peach;
