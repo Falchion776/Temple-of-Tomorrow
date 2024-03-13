@@ -22,6 +22,7 @@
 [Different kinds of fruit/vegatbles to purchase at the farmer's market. Including magic peach.]
 [https://ganelson.github.io/inform-website/book/RB_7_5.html]
 [A Day for Fresh Sushi]
+[https://intfiction.org/t/help-buying-things-when-they-are-in-a-container/53690]
 
 The player wears cloak. The description of the cloak is "Your old travelling cloak. It has served you well for many years.".
 The player carries coin purse. The description of the coin purse is "A new coin sack the Professor gave you for your expidition.".
