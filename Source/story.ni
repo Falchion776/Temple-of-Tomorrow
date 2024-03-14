@@ -47,19 +47,22 @@ Ilbert Drogo carries the Lense of Read Language and the Magic Bow.
 Instead of giving the gold coin to Ilbert Drogo:
 	say "You glance back and forth between the Lense of Read Language and the Magic Bow indescively."
 Instead of buying the Lense of Read Language:
-	now Ilbert Drogo carries the gold coin;
-	now the player carries the Lense of Read Language;
-	now the player carries the silver coin;
-	say "The shopkeep chuckles and says: 'Thank you.'"
-	[Need to prevent player from recieveing the item if they don't have the gold]
-	[Need different dialogue if the player had already bought the item]
+	If the player carries the gold coin:
+		now Ilbert Drogo carries the gold coin;
+		now the player carries the Lense of Read Language;
+		now the player carries the silver coin;
+		say "The shopkeep chuckles and says: 'Thank you.'";
+	otherwise: 
+		say "You don't have the gold to purchase the Lense of Read Magic.".
 Instead of buying the Magic Bow:
-	now Ilbert Drogo carries the gold coin;
-	now the player carries the Magic Bow;
-	now the player carries the silver coin;
-	say "The shopkeep chuckles and says: 'Thank you.'"
-	[Need to prevent player from recieveing the item if they don't have the gold]
-	[Need different dialogue if the player had already bought the item]
+	if the player carries the gold coin:
+		now Ilbert Drogo carries the gold coin;
+		now the player carries the Magic Bow;
+		now the player carries the silver coin;
+		say "The shopkeep chuckles and says: 'Thank you.'";
+	otherwise: 
+		say "You don't have the gold to purchase the Magic Bow.".
+[Need different dialogue if the player had already bought the item]
 
 The Farmer's Market is south of the Inn. "A score of stalls line the road. Despite being the busiest part of town, only a dozen people mill about the market. The energy is low, but in a relaxed war of people just going about their everyday. "
 
